@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table CSS</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        table,th,td{
+            border: 5px solid black;
+        }
+        table{
+            margin-left:50px ;
+            border-collapse: collapse;
+            height: 600px;
+            width: 1000px;
+            text-align: center;
+            margin: 0% auto;
+        }
+        th{
+            font-size: 50px;
+            background-color:teal       ;
+            color: yellowgreen;
+        }
+        td{
+            font-size: 25px;
+        }
+       tr:nth-child(2n){
+            color: black;
+            background-color: khaki;
+        }
+        tr:nth-child(odd){
+            color: blueviolet;
+            background-color:brown;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="post">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Class</th>
+                    <th>Roll No.</th>
+                    <th>Total</th>
+                    <th>Mark</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Manan</td>
+                    <td>12th</td>
+                    <td>255675</td>
+                    <td>600</td>
+                    <td>535</td>
+                </tr>
+                <tr>
+                    <td>Om</td>
+                    <td>12th</td>
+                    <td>265655</td>
+                    <td>600</td>
+                    <td>555</td>
+                </tr>
+                <tr>
+                    <td>Nakul</td>
+                    <td>12th</td>
+                    <td>275695</td>
+                    <td>600</td>
+                    <td>565</td>
+                </tr>
+                <tr>
+                    <td>Komik</td>
+                    <td>12th</td>
+                    <td>235685</td>
+                    <td>600</td>
+                    <td>402</td>
+                </tr>
+                <tr>
+                    <td>Ashwin</td>
+                    <td>12th</td>
+                    <td>152036</td>
+                    <td>600</td>
+                    <td>356</td>
+                </tr>
+                <tr>
+                    <td>Darshan</td>
+                    <td>12th</td>
+                    <td>254569</td>
+                    <td>600</td>
+                    <td>444</td>
+                </tr>
+                <tr>
+                    <td>Sarvesh</td>
+                    <td>12th</td>
+                    <td>256396</td>
+                    <td>600</td>
+                    <td>395</td>
+                </tr>
+                <tr>
+                    <td>Akshay</td>
+                    <td>12th</td>
+                    <td>152563</td>
+                    <td>600</td>
+                    <td>452</td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>

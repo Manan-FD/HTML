@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice using table</title>
+</head>
+<body>
+    <form action="" method="post">
+        <h1>Tax Invoice</h1>
+        <h2>Invoice #: 123456</h2>
+        <br>
+        <br>
+        <p>Payment Due : 15/06/2022</p>
+        <p>Customer Number  : 9ABS03</p>
+        <p>Customer Name  : Manan Panchal</p>
+        <table border="1" height="500px" width="800px">
+            <thead>
+                <tr>
+                    <th>CODE</th>
+                    <th>DESCRIPTION</th>
+                    <th>QTY</th>
+                    <th>PRICE</th>
+                    <th>UNIT</th>
+                    <th>DISC%</th>
+                    <th>EXT. PRICE</th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td>1234</td>
+                        <td>item #1</td>
+                        <td>5</td>
+                        <td>$225.00</td>
+                        <td>lbs</td>
+                        <td>8.75%</td>
+                        <td>1026.56</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">2356</td>
+                        <td>item #2</td>
+                        <td>5</td>
+                        <td>180</td>
+                        <td>lbs</td>
+                        <td></td>
+                        <td>$900</td>
+                    </tr>
+                    <tr>
+                        <td>NOTHING FOLLOWS</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </thead>
+        </table>
+    </form>
+</body>
+</html>

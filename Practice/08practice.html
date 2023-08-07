@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background property in css</title>
+    <link rel="shortcut icon" href="../Images/Manan.jpg">
+    <style>
+        div{
+            height: 600px;
+            margin-bottom: 20px;
+            margin-left: 50px;
+            margin-right: 50px;
+            font-size: 30px;
+        }
+        .background-attachment{
+            border: 10px dashed blueviolet;
+            background-image: url(../Images/coding\ image.avif);
+            background-attachment: fixed;
+        }
+        .background-clip{
+            border: 10px dashed blueviolet;
+            color: aqua;
+            background-image: url(../Images/02coding\ image.avif);
+            background-repeat: no-repeat;
+            background-clip: border-box;
+            background-clip: padding-box;
+            background-clip: content-box;
+            padding: 100px;
+        }
+        .background-origin{
+            border: 10px dashed blueviolet;
+            color: cadetblue;
+            background-image: url(../Images/03coding\ image.avif);
+            background-repeat: no-repeat;
+            background-origin: border-box;
+            background-origin: padding-box;
+            background-origin: content-box;
+            padding: 100px;
+        }
+        .background-color{
+            border: 10px dashed blueviolet;
+            color: black;
+            background-color:orchid;
+        }
+        .background-image{
+            border: 10px dashed blueviolet;
+            color: teal;
+            background-image: url(../Images/04\ coding\ image.avif);
+            background-image: url(../Images/photo-1611262588024-d12430b98920.avif);
+        }
+        .background-position{
+            border: 10px dashed blueviolet; 
+            color: crimson;
+            background-image: url(../Images/05\ coding\ image.avif) ;
+            background-repeat:no-repeat ;
+            background-position: center;
+            background-position: left;
+            background-position: 60% 10%;
+        }
+        .background-repeat{
+            border: 10px dashed blueviolet;
+            background-image: url(../Images/06\ coding\ image.jpg);
+            background-repeat:no-repeat ;
+            background-repeat: repeat-x;
+            background-repeat: repeat-y;
+        }
+        .background-size{
+            border: 10px dashed blueviolet;
+            background-image: url(../Images/07\ coding\ image.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-size: 70%;
+        }
+        .background-multiple{
+            border: 10px dashed blueviolet;
+            background-image: url(../Images/Manan.jpg),url(../Images/05\ coding\ image.avif) ;
+            background-repeat: no-repeat;
+            background-position: 0% 0% bottom 1% right 0%;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <h1>background property in css</h1>
+    <ul>
+        <li>background-attachment</li>
+        <li>background-clip</li>
+        <li>background-origin</li>
+        <li>background-color</li>
+        <li>background-image</li>
+        <li>background-position</li>
+        <li>background-repeat</li>
+        <li>background-size</li>
+    </ul>  
+    <div class="background-attachment">background-attachment</div>
+    <div class="background-clip">background-clip</div>
+    <div class="background-origin" > background-origin</div>
+    <div class="background-color">background-color</div>
+    <div class="background-image">background-image</div>
+    <div class="background-position">background-position</div>
+    <div class="background-repeat">background-repeat</div>
+    <div class="background-size">background-size</div>
+    <div class="background-multiple">background-multiple</div>
+</body>
+</html>

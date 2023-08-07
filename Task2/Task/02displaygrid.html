@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Grid</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            border: px solid black;
+            width: 100%;
+            background-image: url(../../Images/cute\ puppy.jpeg);
+            background-attachment: fixed;
+        }
+
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            grid-auto-rows: minmax(100px, auto);
+        }
+
+        .box1 {
+            margin: 0%;
+            padding: 1%;
+            grid-column: 2/3;
+            grid-row: 3/5;
+        }
+
+        .box2 {
+            padding: 1%;
+            background-size: cover;
+            grid-column: 1/3;
+
+        }
+
+        .box3 {
+            padding: 1%;
+            background-size: cover;
+        }
+
+        .box4 {
+            padding: 1%;
+            background-size: cover;
+        }
+
+        .box5 {
+            padding: 1%;
+            background-size: cover;
+        }
+
+        .box6 {
+            padding: 1%;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="box1"><img src="../../Images/3d cat wallpaper.jpeg" height="520px" alt=""></div>
+        <div class="box2"><img src="../../Images/3d cat wallpaper1.jpg" height="520px" alt=""></div>
+        <div class="box3"><img src="../../Images/3d cat wallpaper2.jpeg" height="520px" alt=""></div>
+        <div class="box4"><img src="../../Images/husky.jpeg" height="520px" alt=""></div>
+        <div class="box5"><img src="../../Images/husky2.jpeg" height="520px" alt=""></div>
+        <div class="box6"><img src="../../Images/husky3.jpeg" height="520px" alt=""></div>
+        <div class="box7"><img src="../../Images/cute dog cat.jpeg" height="520px" alt=""></div>
+        <div class="box8"><img src="../../Images/cute dog cat2.jpeg" height="520px" alt=""></div>
+        <div class="box9"><img src="../../Images/cute dog cat3.jpeg" height="520px" alt=""></div>
+        <div class="box10"><img src="../../Images/cute puppy.jpeg" height="520px" alt=""></div>
+        <div class="box11"><img src="../../Images/cute puppy2.jpeg" height="520px" alt=""></div>
+        <div class="box12"><img src="../../Images/cute puppy3.jpeg" height="520px" alt=""></div>
+        <div class="box13"><img src="../../Images/entertement.jpeg" height="520px" alt=""></div>
+        <div class="box14"><img src="../../Images/entertement2.jpeg" height="520px" alt=""></div>
+        <div class="box15"><img src="../../Images/entertement3.jpeg" height="520px" alt=""></div>
+        <!-- <div class="box16"></div>
+        <div class="box17"></div>
+        <div class="box18"></div> -->
+
+    </div>
+</body>
+
+</html>
